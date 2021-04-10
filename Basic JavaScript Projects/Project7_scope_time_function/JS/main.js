@@ -33,26 +33,26 @@ Add_numbers_2();
 
 // If statement pertaining a variable
 if (1 < 2) {
-    document.write("The left number is smaller than the number on the right.");
+    document.write("The left number is less than the number on the right.");
 }
 
 // Function containing a greeting message
-function get_Date() {
-    if (new Date().getHours() > 18) {
+function getWeek() {
+    if (21 > 18) {
     document.getElementById("Greeting") .innerHTML = "How are you today?";
     }
 }
 
 // Function containing a greeting message
-function get_Calendar() {
-    if (new Date().getHours() > 15) {
+function getMonth() {
+    if (16 > 15) {
     document.getElementById("Hello") .innerHTML = "You are Cool!";
     }
 }
 
 // If statement pertaining a variable
-if (3 < 5) {
-    document.write("The left number is smaller than the number to the right.");
+if (20 > 18) {
+    document.write("The left number is greater than the number to the right.");
 }
 
 // Else Statement about voting age
@@ -71,12 +71,12 @@ function Age_Function() {
 function Time_Function() {
     Time = document.getElementById("Time") .value;
     if (Time >= 13) {
-        Date = "The time is past 13!";
+        todaysDay = "The time is past 13!";
     }
     else {
-        Date = "The time is not past 13!";
+        todaysDay = "The time is not past 13!";
     }
-    document.getElementById("What_is_the_date?") .innerHTML = Date;
+    document.getElementById("What_is_the_date?") .innerHTML = todaysDay;
 }
 
 // Else statement about the date
