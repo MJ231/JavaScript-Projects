@@ -1,0 +1,253 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf=8">
+<title>The Power Rangers Convention</title>
+<link rel="stylesheet" href="./css/one_page_website.css">
+<script src="JS/one_page_website.js"></script>
+</head>
+<body>
+
+<!-- NAV -->
+<div>
+<div>
+<ul>
+<a href="#home" id="link"><li>HOME</li></a>
+<a href="#gallery"><li>GALLERY</li></a>
+<a href="#video"><li>VIDEO</li></a>
+<a href="#contact"><li>RESERVATIONS</li></a>
+</ul>
+</div>
+</div>
+<!-- END NAV -->
+
+<!-- HOME -->
+<div id="home">
+<div>
+<div>
+<span>The Mighty Morphin Power Rangers</span>
+<h1>The Power Rangers</h1>
+<h3>Red Ranger</h3>
+<h3>Yellow Ranger</h3>
+<h3>Black Ranger</h3>
+<h3>Blue Ranger</h3>
+<h3>Pink Ranger</h3>
+</div>
+</div>
+</div>
+<!-- END HOME -->
+
+<!-- GALLERY -->
+<secton>
+<div id="gallery">
+<h1>Gallery</h1>
+<div>
+
+<!-- PHOTO-CONTAINER 1 -->
+<div>
+<div>
+<img src="./images/thumb/thumbnail_10.jpg" alt="The Red Ranger">
+<div>
+<h1>Click to Enlarge</h1>
+<p>We have several meet-and-greets open, book your appointment today!</p>
+</div>
+</div>
+</div>
+<!-- END PHOTO-CONTAINER 1 -->
+
+<!-- PHOTO-CONTAINER 2 -->
+<div>
+<div>
+<img src="./images/thumb/thumbnail_11.jpg" alt="The Yellow Ranger">
+<div>
+<h1>Click to Enlarge</h1>
+<p>We have several meet-and-greets open, book your appointment today!</p>
+</div>
+</div>
+</div>
+<!-- END PHOTO-CONTAINER 2 -->
+
+<!-- PHOTO-CONTAINER 3 -->
+<div>
+<div>
+<img src="./images/thumb/thumbnail_12.jpg" alt="The Blue Ranger">
+<div>
+<h1>Click to Enlarge</h1>
+<p>We have several meet-and-greets open, book your appointment today!</p>
+</div>
+</div>
+</div>
+<!-- END PHOTO-CONTAINER 3 -->
+
+<!-- PHOTO-CONTAINER 4 -->
+<div>
+<div>
+<img src="./images/thumb/thumbnail_13.jpg" alt="The Black Ranger">
+<div>
+<h1>Click to Enlarge</h1>
+<p>We have several meet-and-greets open, book your appointment today!</p>
+</div>
+</div>
+</div>
+<!-- END PHOTO-CONTAINER 4 -->
+
+<!-- PHOTO-CONTAINER 5 -->
+<div>
+<div>
+<img src="./images/thumb/thumbnail_14.jpg" alt="The Pink Ranger">
+<div>
+<h1>Click to Enlarge</h1>
+<p>We have several meet-and-greets open, book your appointment today!</p>
+</div>
+</div>
+</div>
+<!-- END PHOTO-CONTAINER 5 -->
+
+<!-- Images used to open the lightbox -->
+<div class="row">
+    <div class="column">
+      <img src="./images/thumb/thumbnail_10.jpg" onclick="openModal();currentSlide(1)" class="hover-shadow">
+    </div>
+    <div class="column">
+      <img src="./images/thumb/thumbnail_11.jpg" onclick="openModal();currentSlide(2)" class="hover-shadow">
+    </div>
+    <div class="column">
+      <img src="./images/thumb/thumbnail_12.jpg" onclick="openModal();currentSlide(3)" class="hover-shadow">
+    </div>
+    <div class="column">
+      <img src="./images/thumb/thumbnail_13.jpg" onclick="openModal();currentSlide(4)" class="hover-shadow">
+    </div>
+    <div class="column">
+      <img src="./images/thumb/thumbnail_14.jpg" onclick="openModal();currentSlide(5)" class="hover-shadow">
+    </div>
+  </div>
+  
+  <!-- The Modal/Lightbox -->
+  <div id="myModal" class="modal">
+    <span class="close cursor" onclick="closeModal()">&times;</span>
+    <div class="modal-content">
+  
+      <div class="mySlides">
+        <div class="numbertext">1 / 5</div>
+        <img src="./images/thumb/thumbnail_10.jpg" style="width:100%">
+      </div>
+  
+      <div class="mySlides">
+        <div class="numbertext">2 / 5</div>
+        <img src="./images/thumb/thumbnail_11.jpg" style="width:100%">
+      </div>
+  
+      <div class="mySlides">
+        <div class="numbertext">3 / 5</div>
+        <img src="./images/thumb/thumbnail_12.jpg" style="width:100%">
+      </div>
+  
+      <div class="mySlides">
+        <div class="numbertext">4 / 5</div>
+        <img src="./images/thumb/thumbnail_13.jpg" style="width:100%">
+      </div>
+
+      <div class="mySlides">
+        <div class="numbertext">5 / 5</div>
+        <img src="./images/thumb/thumbnail_14.jpg" style="width:100%">
+      </div>
+  
+      <!-- Next/previous controls -->
+      <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+      <a class="next" onclick="plusSlides(1)">&#10095;</a>
+  
+      <!-- Caption text -->
+      <div class="caption-container">
+        <p id="caption"></p>
+      </div>
+  
+      <!-- Thumbnail image controls -->
+      <div class="column">
+        <img class="demo" src="./images/thumb/thumbnail_10.jpg" onclick="currentSlide(1)" alt="Red Ranger">
+      </div>
+  
+      <div class="column">
+        <img class="demo" src="./images/thumb/thumbnail_11.jpg" onclick="currentSlide(2)" alt="Yellow Ranger">
+      </div>
+  
+      <div class="column">
+        <img class="demo" src="./images/thumb/thumbnail_12.jpg" onclick="currentSlide(3)" alt="Blue Ranger">
+      </div>
+  
+      <div class="column">
+        <img class="demo" src="./images/thumb/thumbnail_13.jpg" onclick="currentSlide(4)" alt="Black Ranger">
+      </div>
+
+      <div class="column">
+        <img class="demo" src="./images/thumb/thumbnail_14.jpg" onclick="currentSlide(5)" alt="Pink Ranger">
+      </div>
+  </div>
+
+</div>
+</div>
+</section>
+<!-- END GALLERY -->
+
+<!-- VIDEO -->
+<section>
+<div id="video">
+<h1>Video</h1>
+<div>
+
+<!-- MAIN VIDEO -->
+<div>
+<div>
+<iframe width="300" height="215" src="https://www.youtube.com/embed/DmOzHNgSw6Q" title="YouTube video player" frameborder="2" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<div>
+<h4>Click to watch!</h4>
+<p>The original power rangers introduction!</p>
+</div>
+</div>
+</div>
+<!-- END MAIN VIDEO -->
+
+</div>
+</div>
+</section>
+<!-- END VIDEO -->
+
+<!-- RSVP -->
+<section>
+<div id="contact">
+<div>
+<h1>Reservations</h1>
+<div>
+<h2><span>Your Meet-And-Greet Is Just Around The Command Center.</span>
+<br />Reserve Your Meet-And-Greet Today!
+</h2>
+<p>
+Please provide us with your contact information.
+</p>
+<div>
+<form action="" method="post">
+<input class="rsvp" type="text" value="First Name">
+<input class="rsvp" type="text" value="Last Name">
+<input class="rsvp" type="text" value="Email Address">
+<input class="rsvp" type="text" value="Phone Number">
+<div class="form-spacer">
+<label class="term">Terms and Conditions &#169;</label>
+</div>
+<div>
+<input type="submit" value="Submit">
+</div>
+</form>
+</div>
+</div>
+</div>
+</div>
+</section>
+<!-- END RSVP -->
+
+<!-- FOOTER -->
+<div>
+www.officialpowerrangers.morphinominal &nbsp;|&nbsp; &copy; 2021
+</div>
+<!-- END FOOTER -->
+
+</body>
+</html>
