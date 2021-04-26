@@ -4,9 +4,11 @@ These are some small projects I made using JavaScript.
 
 <h2>PROJECTS</h2>
 
-[Pizza Menu](https://github.com/MJ231/JavaScript-Projects/tree/main/Pizza_Project)
+*[Pizza Menu](https://github.com/MJ231/JavaScript-Projects/tree/main/Pizza_Project)
 
-[Tic-Tac-Toe](https://github.com/MJ231/JavaScript-Projects/tree/main/TicTacToe)
+*[Tic-Tac-Toe](https://github.com/MJ231/JavaScript-Projects/tree/main/TicTacToe)
+
+*[Calculator](https://github.com/MJ231/JavaScript-Projects/tree/main/JavaScript%20Projects)
 
 <h2>PIZZA MENU</h2>
 
