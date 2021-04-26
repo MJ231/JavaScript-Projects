@@ -2,6 +2,8 @@
 
 These are some small projects I made using JavaScript.
 
+[Tic-Tac-Toe](https://github.com/MJ231/JavaScript-Projects/tree/main/TicTacToe)
+
 <h2>PIZZA MENU</h2>
 
 This project is a menu used to order pizza with a various selection of toppings. It then takes the input information and calulates a price for the order.
